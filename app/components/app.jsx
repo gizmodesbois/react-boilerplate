@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const App = () => (
-    <h1>Your app start here</h1>
+    <Fragment>
+        <h1 id="main-title">Welcome to the app</h1>
+    </Fragment>
 );
 
 export default App;
