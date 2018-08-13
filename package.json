@@ -1,7 +1,7 @@
 {
-  "name": "bit-belighted",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "Bit belighted",
+  "description": "React boilerplate",
   "main": "index.js",
   "author": "Simon Henrotte",
   "license": "MIT",
