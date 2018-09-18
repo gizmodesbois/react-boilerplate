@@ -1,4 +1,4 @@
-# React boilerplate [![Build Status](https://travis-ci.org/gizmodesbois/react-boilerplate.svg?branch=master)](https://travis-ci.org/gizmodesbois/react-boilerplate)
+# React boilerplate [![Build Status](https://travis-ci.org/gizmodesbois/react-boilerplate.svg?branch=master)](https://travis-ci.org/gizmodesbois/react-boilerplate) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
 
 ## Quick overview
 
