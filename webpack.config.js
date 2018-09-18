@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const DashboardPlugin = require('webpack-dashboard/plugin');
 
 const config = {
   devtool: 'cheap-module-eval-source-map',
@@ -150,6 +151,7 @@ const config = {
       filename: './index.html' 
     }),
     new webpack.HotModuleReplacementPlugin(),
+    new DashboardPlugin(),
   ],
 };
 
