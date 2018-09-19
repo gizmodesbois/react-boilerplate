@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import { AppContainer } from 'react-hot-loader';
+import { ApolloProvider } from 'react-apollo';
+import client from './config/apollo_client';
+import store from './store';
 
 import Root from './root';
 
 const render = (Component) => {
     ReactDOM.render(
         <AppContainer>
-            <Component />
+            <ApolloProvider client={client}>
+                <Provider store={store}>
+                    <Component />
+                </Provider>
+            </ApolloProvider>
         </AppContainer>,
         document.getElementById('app'),
     );

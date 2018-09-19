@@ -48,6 +48,18 @@ Your environment will have everything you need to build a modern single-page Rea
 * Auto merge the Media queries rules.
 * Dodz support directly inside the application.
 
+## GraphQL & Apollo
+
+The application is using GraphQL & Apollo as back-end service.
+
+You are free to remove it or use it with a REST api.
+
+## Redux
+
+Redux will let you create a store inside your application.
+
+We also added the redux-form for your application's forms.
+
 ## License
 
 React boilerplate is open source software [licensed as MIT](https://github.com/gizmodesbois/react-boilerplate/blob/master/LICENSE).
